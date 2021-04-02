@@ -1,0 +1,60 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "7d511EpVUFPMz4whB1fhfg",
+      "projectName": "CRA Codegen TS",
+      "version": "latest",
+      "cssFilePath": "plasmic/cra_codegen_ts/plasmic_cra_codegen_ts.module.css",
+      "components": [
+        {
+          "id": "r_4RNGCUaRv-",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "7d511EpVUFPMz4whB1fhfg",
+          "renderModuleFilePath": "plasmic/cra_codegen_ts/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/cra_codegen_ts/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "projectApiToken": "e7yimynpkrCAabLxZ6wJJhHjADyjWc4UyFRzVzCbhmbZXCVK8LjvEyDeKMaMmm7f7WIDHQn8zBZr2iCc32WehA"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "2i-zub8ONyeO",
+        "name": "Screen",
+        "projectId": "7d511EpVUFPMz4whB1fhfg",
+        "contextFilePath": "plasmic/cra_codegen_ts/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.131",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.131/dist/plasmic.schema.json"
+}
